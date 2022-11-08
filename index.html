@@ -1,117 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
-
-  <head>
-    <meta charset="UTF-8" />
-    <title>Personal Portfolio Website</title>
-    <!----CSS link----->
+<html>
+<head>
+  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!----CSS link----->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
-
-  <body>
-    <div class="hero">
-      <nav>
-        <img src="./assets/img/logo.png" class="logo" />
-        <ul>
-          <!-- Links to Sections -->
-          <li><a href="#Home">Home</a></li>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Skills">My skills</a></li>
-          <li><a href="#Portfolio">Portfolio</a></li>
-          <li><a href="#Blog">Blog</a></li>
-          <li><a href="#Contact">Contact</a></li>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <div class="hero"> 
+    <img src="./assets/img/me.png" class="float-center" alt="About"/>
+  </div>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Talat Edmeer</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">About Me</a></li>
+          <li><a href="#section2">Skills</a></li>
+          <li><a href="#section3">Portfolio</a></li>
+          <li><a href="#section4">Blog</a></li>
+          <li><a href="#section5">Contact</a></li>
+          <li><a href="#" class="btn">Resume</a></li>
         </ul>
-        <a href="#" class="btn">Resume</a>
-      </nav>
+      </div>
+    </div>
+  </div>
+</nav>    
 
-      <div class="content">
-        <span class="title">Talat EDMEER</span>
-         <h1>Web  <span>developer </span></h1>
-        <!-- <p>
-          Web developers build and maintain websites and web
-          applications, using programming, design tools, and 
-          languages such as HTML, CSS, Python and JavaScript to 
-          meet both client and end-user needs.
-        </p>  --->
-        
-        <div class="content2">
-        <div id="About">
-        <img src="./assets/img/me.png" class="float-left" alt="About"/>
-          <h2>About Me
-          </h2>
-          <p>
-            I am a well-organized, dedicated, and eager to learn.
-            I get across to people and adjust to changes with ease.
-            
-            I believe that a person should work on developing their
-            professional skills and learning new things all the time.
-            
-            Currently, I am looking for new career opportunities which my
-            current job position cannot provide.
-          </p>
-        </div>
+<div id="section1" class="container-fluid">
+  <h1>About Me</h1>
+  <p>I am a well-organized, dedicated, and eager to learn.
+    I get across to people and adjust to changes with ease.
+    
+    I believe that a person should work on developing their
+    professional skills and learning new things all the time.</p>
 
-        <div id="Skills">
-        <img src="./assets/img/soon.png" class="float-left" alt="Skills" />
-          <h2>My skills
-          </h2>
-          <p>
-            HTML</br>CSS</br>JavaScript</br>Bootstrap</br>
-            GitHUB</br>JQuery
-          </p>
-        </div>
-
-        <div id="Portfolio">
-        <img src="./assets/img/soon.png" class="float-left" alt="Portfolio" />
-          <h2>Portfolio
-          </h2>
-          <p>
-            Portfolio Empowering people and their business through
-            technology. </p> 
-            <p> Creating engaging, purposeful and
-            creative websites. Helping setting up social media
-            profiles and anything that has to do with establishing
-            online presence.</p>
-            <p> I believe that no matter the size, every business needs
-              a well designed website. Whether it's to increase visibility,
-              establish online presence, increase sales and/or leads, nowadays
-              having a website is crucial for the success of a business.
-          </p>
-        </div>
-
-        <div id="Blog">
-        <img src="./assets/img/soon.png" class="float-left" alt="Blog" />
-          <h2>Blog
-          </h2>
-          <p>
-            This time last year I was pursuing a career in Cloud
-            Computing but unfortunately due to complications this
-            failed and I am now pursuing a career as a Web
-            Developer as I believe this is a powerful platform to
-            enchance my online presence and empowering teams.
-          </p>
-          <p>
-
-          </p>
-        </div>
-
-        <div id="Contact">
-        <img src="./assets/img/soon.png" class="float-left" alt="Contact" />
-          <h2>Contact
-          </h2>
-          <p> E-mail: Talat@gmail.com </p>
-          <p> Mobile: 0101 29292929 </p>
-          <p> Fax: 0202 33445566 </p>
-          <p> Twitter: @tal99 </p>
-          <p> Facebook: abcdef </p>
-        </div>
-        </div>
-        <a href="#" class="btn">Download CV </a>
+  <p>Currently, I am looking for new career opportunities which my current job position cannot provide.</p>
+</div>
+<div id="section2" class="container-fluid">
+  <h1>Skills</h1>
+  <p>HTML</br>CSS</br>JavaScript</br>Bootstrap</br>GitHUB</br>JQuery</p>
+</div>
+<div id="section3" class="container-fluid">
+  <h1>Portfolio</h1>
+  <p>Portfolio Empowering people and their business through
+    technology. </p> 
+    <p> Creating engaging, purposeful and
+    creative websites. Helping setting up social media
+    profiles and anything that has to do with establishing
+    online presence.</p>
+    <p> I believe that no matter the size, every business needs
+      a well designed website. Whether it's to increase visibility,
+      establish online presence, increase sales and/or leads, nowadays
+      having a website is crucial for the success of a business.
+  </p>
+</div>
+<div id="section4" class="container-fluid">
+  <h1>Blog</h1>
+  <p>This time last year I was pursuing a career in Cloud
+    Computing but unfortunately due to complications this
+    failed and I am now pursuing a career as a Web
+    Developer as I believe this is a powerful platform to
+    enchance my online presence and empowering teams.</p>
+</div>
+<div id="section5" class="container-fluid">
+  <h1>Contact</h1>
+  <p>E-mail: Talat@gmail.com </p>
+  <p> Mobile: 0101 29292929 </p>
+  <p> GitHUB: @Talat </p>
+  <p> Twitter: @tal99 </p>
+  <p> Facebook: abcdef </p>
+</div>
+</div>
         <footer>
           <p class="footer">© Copyright 2022</p>
         </footer>
-      </div>
-    </div>
-    
-  </body>
+</body>
 </html>
