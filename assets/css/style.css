@@ -11,11 +11,11 @@ body {
     position: relative; 
 }
 
-#section1 {padding-top:50px;height:500px;color: #fff; background-color: #553555;}
-#section2 {padding-top:50px;height:500px;color: #fff; background-color: #070707;}
-#section3 {padding-top:50px;height:500px;color: #fff; background-color: #553555;}
-#section4 {padding-top:50px;height:500px;color: #fff; background-color: #070707;}
-#section5 {padding-top:50px;height:500px;color: #fff; background-color: #553555;}
+#section1 {padding-top:50px;height:500px;color: #fff; background-color: #0C090D;}
+#section2 {padding-top:50px;height:500px;color: #fff; background-color: #E01A4F;}
+#section3 {padding-top:50px;height:500px;color: #fff; background-color: #F15946;}
+#section4 {padding-top:50px;height:500px;color: #fff; background-color: #F9C22E;}
+#section5 {padding-top:50px;height:500px;color: #fff; background-color: #53B3CB;}
 
 .hero {
   width: 100%;
