@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
+/*
 @media only screen and (max-width: 600px) { 
   body { background-color: red;
          width: 90%; } 
 }
+*/
 
 body {
     position: relative; 
@@ -77,3 +79,13 @@ p {
   margin-top: 3%;
   margin-left: 41%;
 }
+
+@media screen and (max-width: 768px){
+  #container {
+      width: 90%;
+  }
+  h1 {
+      font-size:200%;
+  }
+}
+
